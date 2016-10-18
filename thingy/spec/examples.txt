@@ -1,5 +1,11 @@
 example_id                                                | status  | run_time        |
 --------------------------------------------------------- | ------- | --------------- |
-./spec/controllers/static_pages_controller_spec.rb[1:1:1] | failed  | 0.00698 seconds |
-./spec/controllers/static_pages_controller_spec.rb[1:1:2] | failed  | 0.00208 seconds |
+./spec/controllers/static_pages_controller_spec.rb[1:1:1] | passed  | 0.02257 seconds |
+./spec/controllers/static_pages_controller_spec.rb[1:1:2] | passed  | 0.37329 seconds |
+./spec/features/user_signup_spec.rb[1:1:1]                | failed  | 0.09624 seconds |
+./spec/features/user_views_homepage_spec.rb[1:1]          | passed  | 0.02039 seconds |
+./spec/features/user_views_homepage_spec.rb[1:2]          | passed  | 0.02078 seconds |
+./spec/helpers/sessions_helper_spec.rb[1:1]               | pending | 0.00002 seconds |
 ./spec/helpers/static_pages_helper_spec.rb[1:1]           | pending | 0.00002 seconds |
+./spec/helpers/users_helper_spec.rb[1:1]                  | pending | 0.00001 seconds |
+./spec/models/user_spec.rb[1:1]                           | pending | 0.00002 seconds |
